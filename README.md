@@ -16,7 +16,7 @@ The model is deployed and can be accessed interactively here:
 ## Tech Stack
 * **Programming Language:** Python
 * **Libraries:** Pandas, NumPy, Scikit-Learn, Joblib
-* **Machine Learning:** Logistic Regression, Decision Trees, Random Forest (Hyperparameter Tuned)
+* **Machine Learning:** Random Forest Classifier (Optimized via Grid Search/Random Search)
 * **Deployment:** Hugging Face Spaces & Streamlit
 
 ## Dataset Description
@@ -29,6 +29,7 @@ The dataset consists of feature vectors belonging to 12,330 sessions.
 * **Feature Importance:** `PageValue` was identified as the most significant predictor, showing that users who visit high-value pages are exponentially more likely to convert.
 * **Model Performance:** The final model was optimized to achieve a strong balance between Precision and Recall, ensuring that potential buyers are identified while minimizing false positives.
 * **Ready for Inference:** The project includes a pre-trained model pipeline (`.pkl`) used for both the local inference and the live web app.
+* **Robust Prediction:** Leveraged the power of Random Forest to handle non-linear relationships and provide stable predictions across diverse visitor sessions.
 
 ## Repository Structure
 ```text
